@@ -1,0 +1,43 @@
+body{
+    background:linear-gradient(to left ,#f0ac1b,#eadb90);
+}
+
+.logo{
+    width: 37%;
+    border-radius: 60%;
+}
+.flex1{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+.head{
+    font-family:'Times New Roman', Times, serif ;
+    margin-left:15px ;
+    padding-left:3px ;
+    border: 10px solid rgb(216, 203, 92);
+    background-color: linear-gradient(to right ,#f0ac1b,#dca76a);
+    border-left: 0px;
+    border-top: 0px;
+    border-radius: 15px;
+}
+.responsive{
+    max-width: 75%;
+    height: auto;
+}
+
+img{
+    padding-left: 45px;
+    margin-bottom: 15px;
+}
+.displayBox{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scroll-box{
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
